@@ -19,5 +19,7 @@ namespace R5T.Gretna.Base
         FileFormat GetImageFileFormat(ImageFileIdentity imageFileIdentity);
 
         ImageFileReadInfo GetReadInfo(ImageFileIdentity imageFileIdentity);
+
+        void Delete(ImageFileIdentity imageFileIdentity);
     }
 }
