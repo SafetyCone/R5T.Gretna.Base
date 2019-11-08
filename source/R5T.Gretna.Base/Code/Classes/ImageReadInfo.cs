@@ -6,7 +6,7 @@ using R5T.Philippi;
 using R5T.Sparta;
 
 
-namespace R5T.Gretna.Base
+namespace R5T.Gretna
 {
     public class ImageFileReadInfo : IDisposable
     {
