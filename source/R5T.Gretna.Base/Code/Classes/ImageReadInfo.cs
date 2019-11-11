@@ -37,9 +37,9 @@ namespace R5T.Gretna
         #endregion
 
         
-        public ImageFileIdentity Identity { get; }
-        public Stream Stream { get; }
-        public FileName FileName { get; }
-        public FileFormat FileFormat { get; }
+        public ImageFileIdentity Identity { get; set; }
+        public Stream Stream { get; set; }
+        public FileName FileName { get; set; }
+        public FileFormat FileFormat { get; set; }
     }
 }
