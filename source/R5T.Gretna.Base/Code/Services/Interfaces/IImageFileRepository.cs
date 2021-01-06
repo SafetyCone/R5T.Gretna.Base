@@ -19,6 +19,8 @@ namespace R5T.Gretna
         Task<FileName> GetImageFileName(ImageFileIdentity imageFileIdentity);
         Task<FileFormat> GetImageFileFormat(ImageFileIdentity imageFileIdentity);
 
+        Task SetImageData(ImageFileIdentity imageFileIdentity, Stream imageFileStream);
+
         Task<ImageFileReadInfo> GetReadInfo(ImageFileIdentity imageFileIdentity);
 
         Task Delete(ImageFileIdentity imageFileIdentity);
